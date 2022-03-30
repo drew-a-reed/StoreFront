@@ -11,6 +11,7 @@ public abstract class Candy extends StoreFront {
 
     //constructor----------------------------------------------------------
     public Candy(String name, BigDecimal price){
+        super(name, price);
         this.name = name;
         this.price = price;
     }
@@ -19,7 +20,6 @@ public abstract class Candy extends StoreFront {
     public String getName() {
         return name;
     }
-
     public BigDecimal getPrice() {
         return price;
     }

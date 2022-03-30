@@ -1,12 +1,10 @@
 package Store.drinks;
 import Store.StoreFront;
+import Store.candy.Candy;
 import Store.interfaces.Sellable;
 
 import java.math.BigDecimal;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public abstract class Drinks extends StoreFront {
 
@@ -15,6 +13,7 @@ public abstract class Drinks extends StoreFront {
 
     //constructor----------------------------------------------------------
     public Drinks(String name, BigDecimal price){
+        super(name, price);
         this.name = name;
         this.price = price;
     }
@@ -28,7 +27,7 @@ public abstract class Drinks extends StoreFront {
         return price;
     }
 
-    public  static List<Sellable> createDrinks() {
+    public static List<Sellable> createDrinksList() {
         List<Sellable> drinks = new ArrayList<>();
         drinks.add(new Soda());
         drinks.add(new SportsDrink());
@@ -37,9 +36,11 @@ public abstract class Drinks extends StoreFront {
         return drinks;
     }
 
-    private static Map<Sellable, Sellable> createDrinkList(){
-        Map<Sellable, Sellable> drinkList = new HashMap<>();
-        drinkList.put();
+
+    public String toString(){
+        String template = "Drink: %s \t Price: $%s \n";
+        return String.format(template, getName(), getPrice());
+        //return getName() + " - " + getPrice();
     }
 
 }

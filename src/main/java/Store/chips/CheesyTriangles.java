@@ -9,7 +9,7 @@ public class CheesyTriangles extends Chips implements Sellable {
     private String name;
 
     public CheesyTriangles() {
-        super("Core's Lite", new BigDecimal("3.99"));
+        //super("Core's Lite", new BigDecimal("3.99"));
         this.price = new BigDecimal("3.99");
         this.name = name;
     }

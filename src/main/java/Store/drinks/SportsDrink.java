@@ -9,9 +9,9 @@ public class SportsDrink extends Drinks implements Sellable {
 
 
     public SportsDrink() {
-        super("MidnightBoost", new BigDecimal("5.09"));
+        super("SportsDrink", new BigDecimal("5.09"));
         this.price = new BigDecimal("5.09");
-        this.name = name;
+        this.name = "SportsDrink";
 
     }
 

@@ -6,15 +6,28 @@ import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.Map;
 
-public class StoreFront {
+public abstract class StoreFront {
 
-/*    Map<Sellable, BigDecimal>showIventory;
+    private String name;
+    private BigDecimal price;
 
-    private Map<Sellable, BigDecimal> showInventory(String sellableName) {
+    //getters and setters
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public BigDecimal getPrice() {
+        return price;
+    }
+    public void setPrice(BigDecimal price) {
+        this.price = price;
+    }
 
-        Map<Sellable, Sellable> showInventory = new HashMap<>();
-        showInventory.put(new )
+    //constructor
+    public StoreFront(String name, BigDecimal price) {
 
-                return showIventory;
-    }*/
+    }
+
 }
