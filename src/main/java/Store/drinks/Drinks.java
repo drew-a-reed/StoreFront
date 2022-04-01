@@ -38,9 +38,10 @@ public abstract class Drinks extends StoreFront {
 
 
     public String toString(){
-        String template = "Drink: %s \t Price: $%s \n";
+
+        String template = "Drink: %-15s \t Price: $%-15s \n";
+        //return ("Drink: " + getName() + " $" + getPrice()).replace(",","");
         return String.format(template, getName(), getPrice());
-        //return getName() + " - " + getPrice();
     }
 
 }

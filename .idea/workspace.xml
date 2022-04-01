@@ -4,7 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40eab5de-ff56-4b8c-a425-1072acbb9049" name="Changes" comment="" />
+    <list default="true" id="40eab5de-ff56-4b8c-a425-1072acbb9049" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Store/Selection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Store/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Store/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Store/candy/Candy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Store/candy/Candy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Store/candy/ChocolateBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Store/candy/ChocolateBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Store/candy/Skyttles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Store/candy/Skyttles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Store/candy/SneakersBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Store/candy/SneakersBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Store/chips/CheatOhs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Store/chips/CheatOhs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Store/chips/CheesyTriangles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Store/chips/CheesyTriangles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Store/chips/Chips.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Store/chips/Chips.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Store/chips/Tortilla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Store/chips/Tortilla.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Store/drinks/Drinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Store/drinks/Drinks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Store/drinks/Soda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Store/drinks/Soda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Store/drinks/SportsDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Store/drinks/SportsDrink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Store/drinks/Water.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Store/drinks/Water.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Store/ui/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Store/ui/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Store/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Store/candy/Candy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Store/candy/Candy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Store/candy/ChocolateBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Store/candy/ChocolateBar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Store/candy/Skyttles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Store/candy/Skyttles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Store/candy/SneakersBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Store/candy/SneakersBar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Store/chips/CheatOhs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Store/chips/CheatOhs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Store/chips/CheesyTriangles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Store/chips/CheesyTriangles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Store/chips/Chips.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Store/chips/Chips.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Store/chips/Tortilla.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Store/chips/Tortilla.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Store/drinks/Drinks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Store/drinks/Drinks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Store/drinks/Soda.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Store/drinks/Soda.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Store/drinks/SportsDrink.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Store/drinks/SportsDrink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Store/drinks/Water.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Store/drinks/Water.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Store/ui/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Store/ui/Application.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,10 +53,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="277FIyyJBzmXUxS23QwZyXirOVz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,8 +70,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Application (1)">
+    <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Store.ui.Application" />
+      <module name="Store" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Store.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Store.Application" />
       <module name="Store" />
@@ -48,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application (1)" />
         <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
@@ -62,5 +116,16 @@
       <updated>1648663145560</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

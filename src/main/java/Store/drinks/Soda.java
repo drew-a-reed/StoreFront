@@ -10,8 +10,8 @@ public class Soda extends Drinks implements Sellable {
     private String name;
 
     public Soda() {
-        super("Soda", new BigDecimal("3.99"));
-        this.price = new BigDecimal("3.99");
+        super("Soda", new BigDecimal("3.50"));
+        this.price = new BigDecimal("3.50");
         this.name = "Soda";
     }
 

@@ -8,9 +8,9 @@ public class SneakersBar extends Candy implements Sellable {
     private String name;
 
     public SneakersBar() {
-        super("Core's Lite", new BigDecimal("3.99"));
-        this.price = new BigDecimal("3.99");
-        this.name = name;
+        super("Sneakers", new BigDecimal("4.00"));
+        this.price = new BigDecimal("4.");
+        this.name = "Sneakers";
     }
 
 

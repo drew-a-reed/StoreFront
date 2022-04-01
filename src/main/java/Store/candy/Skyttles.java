@@ -8,9 +8,9 @@ public class Skyttles extends Candy implements Sellable {
     private String name;
 
     public Skyttles() {
-        super("Core's Lite", new BigDecimal("3.99"));
-        this.price = new BigDecimal("3.99");
-        this.name = name;
+        super("Skyttles", new BigDecimal("3.00"));
+        this.price = new BigDecimal("3.00");
+        this.name = "Skyttles";
     }
 
 

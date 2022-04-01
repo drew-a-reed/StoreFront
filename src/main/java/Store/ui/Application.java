@@ -1,8 +1,10 @@
 package Store.ui;
 
+import Store.Selection;
 import Store.ui.UserInput;
 import Store.ui.UserOutput;
 
+import java.nio.channels.Selector;
 import java.util.Scanner;
 
 public class Application {
@@ -10,7 +12,7 @@ public class Application {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         Application application = new Application();
-
+        UserInput.getSelectionHomeScreen();
     }
 
     //drink, candy, chips ------names and prices
@@ -22,24 +24,12 @@ public class Application {
             String userOption = UserInput.getSelectionHomeScreen();
 
             if(userOption.equalsIgnoreCase("1")){
-                //showSelection();
+                Selection selection = new Selection();
             } else if (userOption.equalsIgnoreCase("2")){
                 //ring them up
             } else if(userOption.equalsIgnoreCase("3")){
                 break;
             }
         }
-
-         /* private void showSelection(){
-            while(true) {
-                System.out.print("What are you in the mood for? ");
-                System.out.print("1) Drinks ");
-                System.out.print("2) Candy ");
-                System.out.print("3) Chips ");
-                System.out.print("4) Back ");
-                String choice = ;
-            }
-            return
-          }*/
     }
 }

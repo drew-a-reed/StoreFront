@@ -9,8 +9,8 @@ public class Water extends Drinks implements Sellable {
 
 
     public Water() {
-        super("Water", new BigDecimal("1.29"));
-        this.price = new BigDecimal("1.29");
+        super("Water", new BigDecimal("1.50"));
+        this.price = new BigDecimal("1.50");
         this.name = "Water";
     }
 

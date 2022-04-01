@@ -1,27 +1,50 @@
 package Store.chips;
 
 import Store.StoreFront;
+import Store.drinks.Soda;
+import Store.drinks.SportsDrink;
+import Store.drinks.Water;
+import Store.interfaces.Sellable;
 
 import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.List;
 
 public abstract class Chips extends StoreFront {
-    private BigDecimal price;
     private String name;
+    private BigDecimal price;
 
-    public Chips() {
-        super("Core's Lite", new BigDecimal("3.99"));
-        this.price = new BigDecimal("3.99");
+    //constructor----------------------------------------------------------
+    public Chips(String name, BigDecimal price){
+        super(name, price);
         this.name = name;
+        this.price = price;
     }
 
-
-    @Override
-    public BigDecimal getPrice() {
-        return this.price;
-    }
-
-    @Override
+    //getters--------------------------------------------------------------
     public String getName() {
         return name;
     }
+
+    public BigDecimal getPrice() {
+        return price;
+    }
+
+    public static List<Sellable> createChipsList() {
+        List<Sellable> chips = new ArrayList<>();
+        chips.add(new CheatOhs());
+        chips.add(new CheesyTriangles());
+        chips.add(new Tortilla());
+
+        return chips;
+    }
+
+
+    public String toString(){
+        String template = "Chip: %s \t Price: $%s \n";
+        template.replace("[", "");
+        template.replace(",", "");
+        return String.format(template, getName(), getPrice());
+    }
+
 }

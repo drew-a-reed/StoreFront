@@ -9,9 +9,9 @@ public class Tortilla extends Chips implements Sellable {
     private String name;
 
     public Tortilla() {
-        //super("Core's Lite", new BigDecimal("3.99"));
-        this.price = new BigDecimal("3.99");
-        this.name = name;
+        super("Tortilla", new BigDecimal("3.00"));
+        this.price = new BigDecimal("3.00");
+        this.name = "Tortilla";
     }
 
 
